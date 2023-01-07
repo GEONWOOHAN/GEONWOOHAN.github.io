@@ -1,7 +1,6 @@
 const loginForm = document.querySelector("#login-form");
 const loginInput = loginForm.querySelector("input");
 const greeting = document.querySelector("#greeting");
-const link = document.querySelector("a");
 
 const HIDDEN_CLASSNAME = "hidden";
 const USERNAME_KEY = "username";
@@ -13,13 +12,6 @@ function onLoginSubmit(event) {
     localStorage.setItem(USERNAME_KEY, username);
     paintGreetings(username);
 }
-
-function handleLinkClick(event) {
-    event.preventDefault();
-    console.dir(event);
-}
-
-link.addEventListener("click", handleLinkClick);
 
 function paintGreetings(username) {
     greeting.innerHTML = `Hello ${username}`;
