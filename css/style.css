@@ -1,5 +1,5 @@
 :root {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 body {
@@ -15,4 +15,45 @@ body {
 
 .hidden {
     display: none;
+}
+
+#quote {
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#weather {
+    height: 200px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#clock {
+    font-size: 90px;
+    margin: 0;
+}
+
+#greeting {
+    font-size: 25px;
+    margin: 0px;
+}
+
+#todo-list {
+    height: 300px;
+
+}
+
+li {
+    font-size: 25px;
+}
+
+#todo-form {
+    margin-top: 20px;
+}
+
+input {
+    font-size: 20px;
 }
