@@ -12,6 +12,9 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    image-rendering: -webkit-optimize-contrast;
+    transform: translateZ(0);
+    backface-visibility: hidden;
 }
 
 .hidden {
@@ -50,7 +53,7 @@ body {
 
 li {
     font-size: 32.5px;
-    margin-left: 700px;
+    margin-left: 715px;
     text-align: left;
 }
 
