@@ -1,11 +1,12 @@
 :root {
     font-family: Arial, sans-serif;
+    color: white;
 }
 
 body {
     background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
+    width: 97.5vw;
+    height: 98vh;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -26,7 +27,7 @@ body {
 }
 
 #weather {
-    height: 200px;
+    height: 300px;
     display: flex;
     justify-content: flex-end;
 }
