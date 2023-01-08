@@ -7,7 +7,8 @@ body {
     width: 100vw;
     height: 100vh;
     background-size: cover;
-    image-rendering: -webkit-optimize-contrast;
-    transform: translateZ(0);
-    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
